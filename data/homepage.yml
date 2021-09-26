@@ -5,11 +5,10 @@ banner:
 # about
 about:
   enable : true
-  #content : "Sou certificada Safe 4.6 pela Scaled Agile, Scrum Master I pela Scrum.Org, ITIL Foundation pela Exin, Google Analytics pela Google Academy e Certified Lean Inception Facilitator pela Caroli.org Líder nos processos de desenvolvimento de software e métodos ágeis. Possuo mais de 14 anos de experiência em TI, tendo atuado como IT Business Analyst, PMO, Coordenadora de desenvolvimento, Scrum Master, Agile Coach obtendo uma visão holística do ciclo de gestão de produto, desenvolvimento, testes, treinamento e entrega. Atuei em projetos de softwares para empresas nacionais e multinacionais, tais como Promon Engenharia, PDG, Tribunal de Justiça de São Paulo, Votorantim Metais, Nexa Resources, Vivo, Santander, Ford e Itaú. Sou pós-graduada em Gestão Estratégica de Tecnologia da Informação pela FGV. Participo de cursos e eventos no Brasil sobre cultura ágil, desenvolvimento software e inovação."
-  content : "Sou apaixonada por transformação digital. Tenho ampla experiência na liderança de projetos de desenvolvimento de software, ETL e métodos ágeis. Possuo mais de 14 anos de experiência em TI, tendo atuado em projetos de softwares e dados para empresas nacionais e multinacionais, tais como Promon Engenharia, PDG, Tribunal de Justiça de São Paulo, Votorantim Metais, Nexa Resources, Vivo, Santander, Ford e Itaú."
+  content : "Sou apaixonada por transformação digital. Tenho ampla experiência na liderança de projetos de desenvolvimento de Software, Big Data, Cloud e Métodos ágeis. Possuo mais de 14 anos de experiência em TI, tendo atuado em projetos de softwares e dados para empresas nacionais e multinacionais, tais como Itaú Unibanco, Santander, Vivo, Promon Engenharia, PDG, Tribunal de Justiça de São Paulo, Votorantim Metais, Nexa Resources."
   
   button:
-    enable : true
+    enable : false
     label : "know more"
     URL : "about"
 
@@ -41,6 +40,11 @@ experience:
   item: 
 
     - logo : "images/experience/icon-1.png"
+      title : "Product Manager"
+      company : "Itaú"
+      duration : "Out 2019 - Present"
+
+    - logo : "images/experience/icon-1.png"
       title : "Scrum Master | Tech Lead"
       company : "Triad System"
       duration : "Jul 2018 - Nov 2018"
@@ -50,18 +54,17 @@ experience:
       company : "Cognizant"
       duration : "Nov 2018 - Out 2019"
 
-    - logo : "images/experience/icon-1.png"
-      title : "Product Manager"
-      company : "Itaú"
-      duration : "Out 2019 - Present"
-      
-
 
 # education
 education:
   enable : true
   title : "Education"
   item:
+
+    - title : "CS50's Introduction to Artificial Intelligence with Python"
+      year : "2022"
+      academy : "Harvard"
+
     - title : "MBA Executivo em Gestão Estratégica da Tecnologia da Informação "
       year : "2015"
       academy : "FGV"
@@ -74,14 +77,10 @@ education:
       year : "2008"
       academy : "FATEC-SP"
       
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
-
 # service
 service:
   enable : true
-  title : "Services"
+  title : "Projetos de Destaque"
   item:
     - title : "UI Design"
       icon : "ti-palette"
@@ -100,14 +99,14 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
   title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
@@ -161,6 +160,6 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
+  enable : false
   title : "Blogs"
   # blog post comes from "content/blog" folder
