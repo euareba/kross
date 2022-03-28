@@ -56,7 +56,7 @@ logo = ""
 # theme color
 theme_color = "#41228e"
 # google analytics
-google_analytics_id = "G-E2YTN4MS4N" # Your ID
+google_analytics_id = "UA-223733320-1" # Your ID
 
 # preloader
 [params.preloader]
